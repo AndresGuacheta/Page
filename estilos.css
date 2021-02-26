@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #468334;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+h1 {
+    font-size: 5em;
+    color: #DAF7A6;
+    text-align: center;
+  }
+
+button {
+    background-color: #7ca332;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.puzzle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .fila-1, .fila-2, .fila-3 {
+    display: table-row;
+  }
+
+  .fig-1, .fig-2, .fig-3, .fig-4, .fig-5, .fig-6, .fig-7, .fig-8, .fig-9 {
+    display: table-cell;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #DAF7A6;
+    background: url('Sabana.jpg');
+    background-size: 450px;
+    cursor: move;
+  }
+
+  .fig-1 {
+    background-position: left top;
+  }
+  .fig-2 {
+    background-position: center top;
+  }
+  .fig-3 {
+    background-position: right top;
+  }
+  .fig-4 {
+    background-position: left center;
+  }
+  .fig-5 {
+    background-position: center center;
+  }
+  .fig-6 {
+    background-position: right center;
+  }
+  .fig-7 {
+    background-position: left bottom;
+  }
+  .fig-8 {
+    background-position: center bottom;
+  }
+  .fig-9 {
+    background: #41900c;
+  }
